@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**custom styles**/
+
+body, a {
+    font-size: 13px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    opacity: 0.75;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    height: 100%;
+}
+header, footer {
+    overflow: hidden;
+    line-height: 45px;
+}
+header {
+    margin-bottom: 89px;
+}
+header ul li, footer ul li {
+    float: left;
+    display: block;
+    padding-left: 15px;
+
+}
+header ul li, footer ul li {
+    float: left;
+    display: block;
+    padding-left: 15px;
+}
+.left-float-list {
+    float: left;
+}
+.right-float-list {
+    float: right;
+}
+.left-float-list li:first-child {
+   padding-left: 18px;
+}
+.right-float-list li:last-child {
+    padding-right: 18px;
+}
+
+/*style user icon list*/
+.user-circle {
+    border-radius: 50%;
+    border: 1px solid #609;
+    height: 32px;
+    width: 32px;
+    background-color:  #609;
+    text-align: center;
+    margin-top: 7px;
+    position: relative;
+    
+    
+}
+.user-circle a {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: 0;
+    font-weight: 100;
+
+}
+.main {
+    text-align: center;
+    padding-top: 89px;
+}
+.main img {
+    margin-bottom: 30px;
+}
+
+#input-field {
+    display: block;
+    width: 500px;
+    padding: 8px 8px 8px 8px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#input-field:hover {
+    -webkit-box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+    box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+}
+#input-field:focus {
+    -webkit-box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+    box-shadow: 1px 18px 19px -18px rgba(0,0,0,0.6);
+}
+.submit-container {
+    padding-top: 18px;
+
+}
+.submit-container input {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.submit-container input:hover {
+    border: 2px solid #000;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background:#6cf;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
